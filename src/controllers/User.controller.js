@@ -24,8 +24,8 @@ const signUp = async (req, res) => {
         }
     } catch (error) {
         return res.json({
-            meseege: 'Error',
-            detail: error.meseege
+            message: 'Error',
+            detail: error.message
         })
     }
 }
